@@ -41,21 +41,40 @@ Technologies principales :
 
 ```bash
 hotel-tests/
-│
-├── screenshots/
-│   ├── test_exercice1.png
-│   ├── test_exercice2.png
-│   ├── test_exercice3.png
-│   ├── test_exercice4.png
-│   ├── test_exercice5.png
-│   ├── test_exercice6.png
-│   ├── partieA_exercice7.png
-│   ├── partieB_exercice7.png
-│   └── partieC_exercice7.png
-│
+├── .idea/                        
+├── .mvn/                          
 ├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/hotel_tests/
+│   │   │       ├── demo/         
+│   │   │       ├── employee/      
+│   │   │       ├── reservation/   
+│   │   │       ├── security/      
+│   │   │       ├── HotelTestsApplication.java
+│   │   │       └── InitData.java  
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│           └── com/example/hotel_tests/
+│               ├── employee/      
+│               ├── facturation/  
+│               ├── integration/   
+│               ├── performance/  
+│               ├── reservation/   
+│               └── HotelTestsApplicationTests.java
+├── target/                        
+├── screenshots/                  
+├── .gitattributes
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
 ├── pom.xml
-└── README.md
+├── zap.yaml
+├── zap-report.html                
+└── zap-report-after.html          
 ```
 
 ---
